@@ -14,5 +14,5 @@ class App < Sinatra::Base
 <% @friends.each do |friend| %>
     <h2><%= friend %></h2>
 <% end %>
-  end
+  
 end
